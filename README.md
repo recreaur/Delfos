@@ -34,8 +34,8 @@ docker-compose up
 
 ## Consideraciones
 
-Por motivos de seguridad, todos los contenedores se ejecutan de manera predeterminada con el usuario con UID 1000. Esto evita que los procesos sean ejecutados por *root*.
-Ponemos en advertencia que algunas librerías de la aplicación no están en su última versión, por lo que la Universidad de La Rioja queda exenta de cualquier responsabilidad.
+Por motivos de seguridad, todos los contenedores se ejecutan de manera predeterminada con el usuario con UID 1000. Esto evita que los procesos sean ejecutados por *root*. \
+Ponemos en advertencia que algunas librerías de la aplicación no están en su última versión, por lo que la Universidad de La Rioja queda exenta de cualquier responsabilidad. \
 Se recomienda utilizar, para producción, un proxy inverso como por ejemplo Apache o Nginx.
 
 ## Problemas comunes
