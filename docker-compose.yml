@@ -39,6 +39,7 @@ services:
       - ./data/db/delfos_universidad.sql:/docker-entrypoint-initdb.d/delfos_universidad.sql:ro
       - ./data/db/delfos_viajes.sql:/docker-entrypoint-initdb.d/delfos_viajes.sql:ro
       - ./data/db/delfos_zz_usuarios.sql:/docker-entrypoint-initdb.d/delfos_zz_usuarios.sql:ro
+      - ./data/db/mysql_log:/var/log/mysql
       - ./data/db/mysql_data:/var/lib/mysql
       - ./conf/db/my.cnf:/etc/my.cnf:ro
 

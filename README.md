@@ -16,7 +16,7 @@ Delfos es una aplicación web desarollada por la Universidad de La Rioja donde s
 1. Clonar el proyecto y acceder a la carpeta generada:
 ```sh
 git clone https://github.com/recreaur/Delfos.git
-cd docker-portal
+cd Delfos
 ```
 
 2. Cambiar permisos necesarios
@@ -30,7 +30,7 @@ sudo find {conf,data,secrets} -type f -exec chmod 600 {} \;
 ```sh
 docker-compose up
 ```
-* Navegar hacia <http://localhost:5000>
+* En un navegador acceder a la dirección <http://localhost:8888>
 
 ## Consideraciones
 
